@@ -1,0 +1,11 @@
+[debug] > Exec(htlibraryDependencies ++= Seq("org.apache.spark" %% "spark-core" % "3.1.2","org.apache.spark" %% "spark-sql" % "3.1.2"), None, None)
+[error] Expected ID character
+[error] Not a valid command: htlibraryDependencies
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: htlibraryDependencies (similar: libraryDependencies, libraryDependencySchemes, allDependencies)
+[error] htlibraryDependencies ++= Seq("org.apache.spark" %% "spark-core" % "3.1.2","org.apache.spark" %% "spark-sql" % "3.1.2")
+[error]                      ^
+[debug] > Exec(idea-shell, None, None)
